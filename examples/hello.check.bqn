@@ -1,3 +1,5 @@
-⟨Hello⟩ ← •Import "examples/hello.bqn"
+⟨Check⟩ ← •Import "../check.bqn"
+⟨Hello⟩ ← •Import "./hello.bqn"
 
-{10‿10⥊𝕩} _check_ Hello "test"
+"This is a description" Check     Hello‿{𝕩}
+"This is a description" Check {𝕩}‿Hello‿{𝕩}
